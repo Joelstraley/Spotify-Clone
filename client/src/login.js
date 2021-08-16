@@ -1,8 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-require('dotenv').config()
 
-const AUTH_URL = process.env.AUTH_URL
+const AUTH_URL = process.env.REACT_APP_AUTH_URL
 
 export default function Login() {
   return (
